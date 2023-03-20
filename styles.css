@@ -1,14 +1,26 @@
-.container{
+.cont2{
     display: flex;
+    background-color: rgb(70, 92, 99);
+    min-height: 230px;
+    min-width: 100px;
+    margin: 20px;
+}
+.cont1{
+    background-color: rgba(253, 2, 23, 0.603);
+    min-height: 327px;
+    align-items: center;
+    margin-right: 770px;
+    
+    
 }
 .inp{
     padding: 5px;
     align-items: center;
     min-height: 200px;
-    
+    color: rgb(255, 254, 255);
 }
 label{
-    padding-right: 5px;
+    padding-right: 10px;
 }
 .num1{
     padding: 5px;
@@ -22,6 +34,7 @@ label{
 .func{
     display: inline-grid;
     margin-left: 50px;
+    min-width: 100px;
 }
 button{
     padding: 5px;
@@ -31,7 +44,8 @@ button{
     height: 40px;
 }
 input{
-    width: 130px;
-    height: 40px;
+    width: 75px;
+    height: 20px;
     margin: 10px;
+    padding: 10px;
 }
